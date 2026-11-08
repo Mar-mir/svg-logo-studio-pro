@@ -708,9 +708,77 @@ const ICONS = {
   leaf: {
     name: 'Nature Leaf',
     svg: `<path d="M65,-65 C65,25 15,70 -55,65 C-60,-5 -15,-65 65,-65 Z" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
-    <polygon points="-44,-62 44,-62 78,-16 0,76 -78,-16" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M-45,55 C-10,20 20,-10 55,-55" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="-20" cy="30" r="6" fill="#fff" opacity=".85"/>`
+  },
+  crown: {
+    name: 'Royal Crown',
+    svg: `<polygon points="-62,-6 -72,-56 -36,-26 0,-66 36,-26 72,-56 62,-6" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+          <rect x="-62" y="6" width="124" height="36" rx="12" fill="url(#g)" stroke="#fff" stroke-width="5"/>
+          <circle cx="0" cy="-66" r="8" fill="ICON"/><circle cx="-72" cy="-56" r="7" fill="#fff"/><circle cx="72" cy="-56" r="7" fill="#fff"/>
+          <circle cx="0" cy="24" r="9" fill="#fff"/>`
+  },
+  rocket: {
+    name: 'Startup Rocket',
+    svg: `<path d="M0,-78 C28,-50 32,-8 18,30 L-18,30 C-32,-8 -28,-50 0,-78 Z" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+          <polygon points="-18,18 -52,52 -20,50" fill="ICON" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+          <polygon points="18,18 52,52 20,50" fill="ICON" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+          <circle cx="0" cy="-18" r="14" fill="#fff"/><circle cx="0" cy="-18" r="8" fill="ICON"/>
+          <path d="M-12,52 L0,80 L12,52 Z" fill="#fff" opacity=".9"/>`
+  },
+  brain: {
+    name: 'AI Neural Network',
+    svg: `<circle cx="0" cy="0" r="54" fill="url(#g)" stroke="#fff" stroke-width="5"/>
+          <g stroke="#fff" stroke-width="4" opacity=".8"><line x1="-44" y1="-26" x2="-14" y2="0"/><line x1="-44" y1="26" x2="-14" y2="0"/><line x1="-14" y1="0" x2="18" y2="-22"/><line x1="-14" y1="0" x2="18" y2="22"/><line x1="18" y1="-22" x2="44" y2="0"/><line x1="18" y1="22" x2="44" y2="0"/></g>
+          <g fill="#fff"><circle cx="-44" cy="-26" r="9"/><circle cx="-44" cy="26" r="9"/><circle cx="18" cy="-22" r="8"/><circle cx="18" cy="22" r="8"/><circle cx="44" cy="0" r="9"/></g>
+          <circle cx="-14" cy="0" r="12" fill="ICON" stroke="#fff" stroke-width="4"/>`
+  },
+  code: {
+    name: 'Developer Code',
+    svg: `<rect x="-70" y="-56" width="140" height="112" rx="24" fill="url(#g)" stroke="#fff" stroke-width="5"/>
+          <path d="M-14,-24 L-42,0 L-14,24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14,-24 L42,0 L14,24" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="8" y1="-30" x2="-8" y2="30" stroke="ICON" stroke-width="11" stroke-linecap="round"/>`
+  },
+  heart: {
+    name: 'Heart & Pulse',
+    svg: `<path d="M0,62 C-62,22 -76,-14 -46,-40 C-26,-56 -6,-46 0,-28 C6,-46 26,-56 46,-40 C76,-14 62,22 0,62 Z" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M-38,6 L-14,6 L-4,-14 L10,22 L20,6 L38,6" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>`
+  },
+  coffee: {
+    name: 'Coffee Cup',
+    svg: `<path d="M-52,-22 L-44,54 L44,54 L52,-22 Z" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M52,-10 C80,-10 80,30 40,30" fill="none" stroke="ICON" stroke-width="10" stroke-linecap="round"/>
+          <path d="M-20,-34 C-26,-46 -14,-52 -20,-64 M12,-34 C6,-46 18,-52 12,-64" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+          <rect x="-52" y="-30" width="104" height="12" rx="6" fill="#fff" opacity=".9"/>`
+  },
+  mountain: {
+    name: 'Mountain Peak',
+    svg: `<polygon points="-44,-62 44,-62 78,-16 0,76 -78,-16" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
           <polyline points="-78,-16 78,-16" stroke="#fff" stroke-width="4"/>
           <polyline points="-44,-62 -22,-16 0,76 22,-16 44,-62" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>`
+  },
+  infinity: {
+    name: 'Infinity Loop',
+    svg: `<path d="M-64,0 C-64,-36 -18,-36 0,0 C18,36 64,36 64,0 C64,-36 18,-36 0,0 C-18,36 -64,36 -64,0 Z" fill="none" stroke="url(#g)" stroke-width="24" stroke-linecap="round"/>
+          <circle cx="0" cy="0" r="9" fill="#fff"/>`
+  },
+  gear: {
+    name: 'Industrial Gear',
+    svg: `<g fill="url(#g)" stroke="#fff" stroke-width="4"><rect x="-13" y="-72" width="26" height="30" rx="7"/><rect x="-13" y="-72" width="26" height="30" rx="7" transform="rotate(45)"/><rect x="-13" y="-72" width="26" height="30" rx="7" transform="rotate(90)"/><rect x="-13" y="-72" width="26" height="30" rx="7" transform="rotate(135)"/><rect x="-13" y="-72" width="26" height="30" rx="7" transform="rotate(180)"/><rect x="-13" y="-72" width="26" height="30" rx="7" transform="rotate(225)"/><rect x="-13" y="-72" width="26" height="30" rx="7" transform="rotate(270)"/><rect x="-13" y="-72" width="26" height="30" rx="7" transform="rotate(315)"/></g>
+          <circle cx="0" cy="0" r="40" fill="url(#g)" stroke="#fff" stroke-width="5"/>
+          <circle cx="0" cy="0" r="15" fill="ICON" stroke="#fff" stroke-width="5"/>`
+  },
+  star: {
+    name: 'Radiant Star',
+    svg: `<polygon points="0,-72 17,-22 68,-22 27,10 42,60 0,30 -42,60 -27,10 -68,-22 -17,-22" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+          <polygon points="0,-40 8,-14 34,-14 13,2 21,28 0,12 -21,28 -13,2 -34,-14 -8,-14" fill="#fff" opacity=".55"/>`
+  },
+  gem: {
+    name: 'Diamond Gem',
+    svg: `<polygon points="-58,-20 -20,-58 20,-58 58,-20 0,66" fill="url(#g)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M-58,-20 L58,-20 M-20,-58 L-8,-20 L0,66 M20,-58 L8,-20 L0,66" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+          <polygon points="-58,-20 58,-20 20,-58 -20,-58" fill="#fff" opacity=".25"/>`
   },
   custom_svg: {
     name: 'Custom SVG',
